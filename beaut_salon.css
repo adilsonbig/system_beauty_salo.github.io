@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: no-repeat center/cover url('cabelos.png');
+    height: 100vh;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+}
+.logo {
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo h2 {
+    color: #fff;
+    font-family: Mr Dafoe;
+    font-size: 2.3rem;
+    margin-left: 15px;
+    
+}
+.logo h3 {
+    color: #fff;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    margin-top: 0px;
+   
+}
+nav {
+    height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+   
+ 
+}
+nav ul {
+    
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.area1 img {
+   
+}
