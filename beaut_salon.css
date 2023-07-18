@@ -75,6 +75,16 @@ nav ul li a {
     color: #fff;
     font-size: 3rem;
 }
+.img_serv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.img_serv img {
+    width: 250px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}
 .coment p {
     width: 400px;
     height: 250px;
