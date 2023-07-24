@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header {
-    background: no-repeat center/cover url('cabelos.png');
+    background: no-repeat center/cover url('imagem_mulher2.png');
     height: 100vh;
 }
 .cabecalho {
@@ -49,11 +50,22 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
+    transition: 0.5s;
+  
+}
+nav ul li:hover {
+    background: #fff;
+    padding: 2px;
+    border-radius: 10px;
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    font-family: Arial;
+}
+nav ul li a:hover {
+    color: #6E745E;
 }
 .apresentacao {
     display: flex;
@@ -75,15 +87,164 @@ nav ul li a {
     color: #fff;
     font-size: 3rem;
 }
+#back  {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial;
+}
+#back a {
+    text-decoration: none;
+    font-weight: bold;
+}
 .img_serv {
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
 }
 .img_serv img {
-    width: 250px;
     box-shadow: 2px 2px 3px black;
     border-radius: 10px;
+}
+.serv1, .serv2, .serv3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.serv1 img, .serv2 img, .serv3 img {
+    width: 100%;
+    height: 100%;
+}
+.serv1 figcaption {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Arial;
+    border-radius: 10px;
+    transition: 1s;
+}
+.serv1:hover figcaption {
+    opacity: 0.9;
+}
+
+.serv2 figcaption {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 1s;
+}
+.serv2:hover figcaption {
+    opacity: 0.9;
+}
+.serv3 figcaption {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    opacity: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 1s;
+}
+.serv3:hover figcaption {
+    opacity: 0.9;
+}
+
+.img_serv2 {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.serv4, .serv5, .serv6 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.serv4 img, .serv5 img, .serv6 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.serv4 figcaption, .serv5 figcaption, .serv6 figcaption {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 1s;  
+
+}
+.serv4:hover figcaption, .serv5:hover figcaption, .serv6:hover figcaption {
+    opacity: 0.9;
+}
+.hour_fun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hour_fun h2 {
+   
+    margin-top: 50px;
+    font-family: Arial;
+}
+.horarios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 550px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+
+}
+.horarios p {
+    font-size: 1.3rem;
+    font-family: Lumanosimo;
+    color: #fff;
+    
+}
+.rodape {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    background: black;
+    margin-top: 40px;
+}
+.rodape p {
+     color: #fff;
+     margin-left: 10px;
 }
 .coment p {
     width: 400px;
@@ -118,6 +279,7 @@ nav ul li a {
     font-size: 5rem;
     text-shadow: 2px 2px 2px #fff;
 }
+
 .nosso_obj {
     display: flex;
     justify-content: space-around;
@@ -132,9 +294,78 @@ nav ul li a {
     text-align: justify;
     font-family: Quicksand;
     font-weight: bold;
+    margin-top: 10px;
    
 }
 .nosso_obj img {
     margin-top: 40px;
     
 }
+.list_servi {
+    display: block;
+    
+    
+}
+.list_servi h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial;
+}
+
+.list_servi p {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.list_serv {
+    display: block;
+    margin-top: 10px;
+   
+}
+.list_serv p {
+    font-family: Arial;
+}
+.esp_mani_pedi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+    background: black;
+}
+.pe_mao {
+    display: block;
+    justify-content: flex-start;
+    background: black;
+    margin-top: px;
+}
+.pe_mao p {
+    color: #fff;
+}
+.profi1 ul li {
+    padding: 5px;
+}
+.profi1 a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+}
+.esp_mani_pedi .img_profi img {
+    width: 150px;
+}
+.hair {
+    background: black;
+    margin-top: 20px;
+
+}
+.hair p {
+    color: #fff;
+}
+.pele {
+     background: black;
+     margin-top: 20px;
+}
+.pele p {
+    color: #fff;
+}
+
+
