@@ -67,6 +67,16 @@ nav ul li a {
 nav ul li a:hover {
     color: #6E745E;
 }
+.comentario {
+    width: 400px;
+}
+.comentario h2 {
+    color: #fff;
+    font-family: Arial;
+    font-size: 2rem;
+    margin-top: 150px;
+    margin-left: 40px;
+}
 .apresentacao {
     display: flex;
     justify-content: space-around;
