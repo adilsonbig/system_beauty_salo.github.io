@@ -42,9 +42,7 @@ nav {
      justify-content: center;
      align-items: center;
      margin-right: 10px;
-   
- 
-}
+  }
 nav ul {
     
 }
@@ -68,14 +66,39 @@ nav ul li a:hover {
     color: #6E745E;
 }
 .comentario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+   
+}
+.coment2 {
     width: 400px;
 }
-.comentario h2 {
+.coment2 h2 {
     color: #fff;
     font-family: Arial;
     font-size: 2rem;
-    margin-top: 150px;
     margin-left: 40px;
+   margin-bottom: 20px;
+   
+}
+.coment2 p {
+    color: #fff;
+    font-family: Arial;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social a {
+    font-size: 1.8rem;
+    padding: 5px;
+    margin-right: 10px;
 }
 .apresentacao {
     display: flex;
@@ -96,6 +119,17 @@ nav ul li a:hover {
     font-family: ;
     color: #fff;
     font-size: 3rem;
+}
+.ideal h2 {
+    font-family: Arial;
+}
+.some_products {
+    margin-top: 40px;
+    background: #6E745E;
+}
+.some_products h2 {
+    text-align: center;
+    font-family: Arial;
 }
 #back  {
     margin-top: 10px;
@@ -274,20 +308,31 @@ nav ul li a:hover {
     margin-top: 10px;
     font-size: 1.3rem;
 }
+.sobre_nos {
+    background: gray;
+}
+
 .sobre {
     display: flex;
     justify-content: space-between;
     height: 200px;
     width: 100%;
-    background: gray;
-
-}
+ }
+ .sobre a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial;
+ }
 .sobre h1 {
     font-family:  Mr Dafoe;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 5rem;
     text-shadow: 2px 2px 2px #fff;
+}
+.sobre img {
+    
 }
 
 .nosso_obj {
