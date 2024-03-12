@@ -415,7 +415,7 @@ nav ul li a:hover {
 }
 .infor_hair {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: black;
 }
@@ -428,7 +428,7 @@ nav ul li a:hover {
     padding: 5px;
 }
 .profi2 {
-    margin-left: 100px;
+   
     
 }
 
@@ -442,6 +442,7 @@ nav ul li a:hover {
 }
 .infor_hair .img_profi2 img {
     width: 150px;
+    margin-right: 50px;
     
 }
 .pele {
