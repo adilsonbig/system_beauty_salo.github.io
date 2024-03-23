@@ -248,6 +248,34 @@ nav ul li a:hover {
 .serv4:hover figcaption, .serv5:hover figcaption, .serv6:hover figcaption {
     opacity: 0.9;
 }
+.our_products {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.area_produtos {
+    width: 89%;
+    height: 230px;
+    background: #000000;
+    border-radius: 10px;
+}
+.area_produtos h2 {
+    color: #fff;
+    text-align: center;
+    font-family: arial;
+    margin-top: 15px;
+}
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.produtos img {
+    width: 90px;
+}
+.pro1 {
+    margin-left: 15px;
+}
 .hour_fun {
     display: flex;
     justify-content: center;
@@ -446,8 +474,18 @@ nav ul li a:hover {
     
 }
 .pele {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
      background: black;
      margin-top: 20px;
+}
+.servic2 p {
+    margin-left: 50px;
+}
+.pele .profi3 img {
+    width: 150px;
+    margin-right: 60px;
 }
 .pele p {
     color: #fff;

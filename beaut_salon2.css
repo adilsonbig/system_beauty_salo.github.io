@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: gray;
+    height: 20vh;
+}
+.back_time {
+    padding: 10px;
+}
+.back_time a {
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+}
+.titulo_time {
+    display: flex;
+    justify-content: center;
+}
+.titulo_time h1 {
+    margin-top: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-shadow: 1px 1px 2px #000000;
+}
+.img_time1 {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+figure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure img {
+    filter:drop-shadow(0px 5px 5px #000);
+}
+figure p {
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+.img_time2 {
+    display: flex;
+    justify-content: space-around;
+}
